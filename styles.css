@@ -1,0 +1,66 @@
+body {
+	background-color: rgba(255, 193, 164, 0.5);
+}
+
+.profilePicture {
+	border-radius: 50%;
+	background-position: 50% 50%;
+	height: 100px;
+	width: 100px;
+}
+
+header {
+  text-align: center;
+  background-color: rgba(255, 193, 164, 1);
+  color: white;
+ }
+
+ a {
+  color: white;
+  text-align: center;
+}
+
+h1, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+
+ul {
+  padding: 10px;
+  background:rgba(0, 0, 0, 0.5);
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  font-family: 'Roboto', sans-serif;
+ }
+
+.projectDisplay {
+	display: flex;
+	flex-direction: row;
+}
+
+.projectImage {
+	background-position: 50% 50%;
+}
+
+.projectLink {
+	display: block;
+	font-weight: 900;
+}
+
+@media (max-width: 500px) {
+	h1 {
+        font-size: 36px;
+      }
+    li{
+        display: block;
+        padding: 5px;
+      }
+}
