@@ -4,8 +4,13 @@ body {
 
 .aboutMe {
   text-align: center;
-  font-family: 'Roboto', sans-serif;  
-  color: white  
+  font-family: 'Old Standard TT', serif;
+  color: white;
+  padding: 0 25px;
+}
+
+.aboutMe h5 {
+  text-align: justify;
 }
 
 .profilePicture {
@@ -33,7 +38,7 @@ h1 {
 }
 
 h2 {
-  border-bottom: 1px white dotted;
+  border-bottom: white thick dotted;
 }
 
 h3 {
@@ -63,7 +68,12 @@ a {
   font-size: 20px;
 }
 
-.button:hover {
+.navButtons .button:hover {
+  background-color: white;
+  background:rgba(0, 0, 0, 0.5);
+}
+
+footer .button:hover {
   background-color: white;
   background:rgba(0, 0, 0, 0.5);
 }
@@ -85,7 +95,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: rgba(255, 193, 164, 1);
+  background:rgba(0, 0, 0, 0.5);
   text-align: center;
   color: white
 }
