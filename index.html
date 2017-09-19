@@ -2,28 +2,136 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  
 	<link rel="stylesheet" type="text/css" href="styles.css">
-	<title>David Weber's Portfolio Site</title>
+  <title>David Weber's Portfolio Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
 </head>
+
 <body>
   <header>
     <img src="DPW_image.jpg" class="profilePicture">
     <h1>David Weber</h1>
     <h3>Full Stack Web Developer</h3>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Previous Projects</a></li>
-      <li><a href="#">C.V.</a></li>
-    </ul>
+    <div class="navButtons">
+      <div class="button"><a href="#">Previous Projects</a></div>
+      <div class="button"><a href="#">About Me</a></div>
+      <div class="button"><a href="DPWresume.doc.pdf">C.V.</a></div>
+    </div>
   </header>
 
-<div class="projectDisplay">
-  <div class="projectBox">
-  	<a href="https://github.com/dweb1/jeopardy_game">
-  		<img src="jeopardy.png" class="projectImage"></a>
-  	<a href="https://github.com/dweb1/jeopardy_game" class=projectLink>Jeopardy project</a>
-  </div>
+<div class="projects">
+  <h2>Projects</h2>
+  <div class="projectRow">
+  <div class="row">
+    <div class="col m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="Jeopardy.png">
+        </div>
+        <div class="card-content">
+          <p>Front-end Jeopardy game utilizing jQuery</p>
+        </div>
+        <div class="card-action">
+          <a href="http://dweb-jeopardy.bitballoon.com/">Live Link</a>
+          <a href="https://github.com/dweb1/jeopardy_game">GitHub Link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="whatsForDinner.jpg">
+        </div>
+        <div class="card-content">
+          <p>Full-stack recipe sharing site utilizing MongoDB and Express</p>
+        </div>
+        <div class="card-action">
+          <a href="https://stark-bastion-57870.herokuapp.com/">Live Link</a>
+          <a href="https://github.com/dweb1/whats-for-dinner">GitHub Link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col m4">
+      <div class="card">
+        <div class="card-image">
+          <img src="KickIt.jpg">
+        </div>
+        <div class="card-content">
+          <p>Full-stack React site utilizing 3rd party API to display soccer data and scores</p>
+        </div>
+        <div class="card-action">
+          <a href="https://kickitapp.herokuapp.com/">Live Link</a>
+          <a href="https://github.com/dweb1/KickIt">GitHub Link</a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<div class="projectRow">
+  <div class="row">
+      <div class="col m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="ProjRover.jpg">
+            </div>
+            <div class="card-content">
+              <p>Crowd-sourced travel/location review site utilizing Ruby on Rails</p>
+            </div>
+            <div class="card-action">
+              <a href="https://kickitapp.herokuapp.com/">Live Link</a>
+              <a href="https://github.com/dweb1/KickIt">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="col m4">
+          <div class="card">
+            <div class="card-image">
+              <img src="LinguaLect.png">
+            </div>
+            <div class="card-content">
+              <p>Language learning site utilizing 3rd party APIs and React on Rails</p>
+            </div>
+            <div class="card-action">
+              <a href="https://kickitapp.herokuapp.com/">Live Link</a>
+              <a href="https://github.com/dweb1/KickIt">GitHub Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
 </div>
 
+<div class="aboutMe">
+  <h2>About Me</h2>
+  <h5>I recently completed the Web Development Immersive program at General Assembly. There, I made the transition from a litigation paralegal to kick starting my career in technology as a web developer. During the program, I built five web applications implementing React.js, Ruby on Rails, and SQL database, while focusing on best practices.</h5> 
+  <h5>As a paralegal, I gained strong organizational skills and effective communication when working in teams. Having made this major shift, I’m looking forward to finding a role where I can continue to learn and grow as a full-stack web developer.</h5>
+</div>
+
+<footer>
+  <div class="button">
+    <a href='https://github.com/dweb1'>
+    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+    Github
+  </a>
+  </div>
+  <div class="button">
+  <a href='https://www.linkedin.com/in/davidpweber/'>
+    <i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i>    
+    LinkedIn
+  </a>
+  </div>
+</footer>
+
+<script src="https://use.fontawesome.com/41526cb8f6.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 </body>
+</html>
