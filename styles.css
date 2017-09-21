@@ -15,18 +15,24 @@ body {
 }
 
 .profilePicture {
-	background-position: 50% 50%;
+	/* background-position: 50% 50%; */
 	height: 100px;
   width: 100px;
-  margin: 40px 0px 0px 0px;
+  padding: 0 auto;
+  /* margin: 40px 0px 0px 0px; */
   border: 7px solid white;
   border-radius: 500px;
 }
 
 header {
-  text-align: center;
-  background-color: rgba(255, 193, 164, 1);
+  background-image: url("splash.jpeg");
+  background-size: cover;
   color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
  }
 
  a {
