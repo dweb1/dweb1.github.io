@@ -1,5 +1,5 @@
 body {
-	background-color: rgba(255, 193, 164, 0.5);
+	background-color: rgba(164, 211, 255, 0.71);
 }
 
 .aboutMe {
@@ -16,8 +16,8 @@ body {
 
 .profilePicture {
 	/* background-position: 50% 50%; */
-	height: 100px;
-  width: 100px;
+	height: 300px;
+  width: 300px;
   padding: 0 auto;
   /* margin: 40px 0px 0px 0px; */
   border: 7px solid white;
@@ -41,7 +41,8 @@ header {
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 2px 4px #000000;  
 }
 
 h2 {
@@ -52,13 +53,8 @@ h2 {
 
 h3 {
   font-family: 'Pacifico', cursive;
-}
-
-.navButtons {
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  background:rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px #000000;
+  
 }
 
 a {
@@ -77,6 +73,13 @@ a {
   font-size: 20px;
 }
 
+.navButtons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  background:rgb(164, 211, 255);
+}
+
 .navButtons .button:hover {
   background-color: white;
   background:rgba(0, 0, 0, 0.5);
@@ -84,17 +87,8 @@ a {
 
 footer .button:hover {
   background-color: white;
-  background:rgba(0, 0, 0, 0.5);
+  background:rgb(86, 109, 131);  
 }
-
- .projects {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   font-family: 'Roboto', sans-serif;
-   /* color: white; */
-   text-align: center;
-  }
 
 footer {
   /* position: absolute; */
@@ -104,7 +98,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background:rgba(0, 0, 0, 0.5);
+  background:rgb(164, 211, 255);
   text-align: center;
   color: white
 }
@@ -112,14 +106,6 @@ footer {
 footer a {
   color: white
 }
-
-.projects h2 {
-    color: white
-  }
-
-.row {
-    margin: 0 auto;
-  }
 
   @media (max-width: 500px) {
 	h1 {
