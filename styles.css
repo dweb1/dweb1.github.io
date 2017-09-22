@@ -15,11 +15,9 @@ body {
 }
 
 .profilePicture {
-	/* background-position: 50% 50%; */
 	height: 300px;
   width: 300px;
   padding: 0 auto;
-  /* margin: 40px 0px 0px 0px; */
   border: 7px solid white;
   border-radius: 500px;
 }
@@ -72,7 +70,7 @@ a {
 
 .button {
   width: 30%;
-  background-color: #4242DA;
+  background-color: rgba(164, 211, 255, 0.5);
   height: 40px;
   text-align: center;
   border-radius: 4px;
