@@ -70,7 +70,7 @@ a {
 
 .button {
   width: 30%;
-  background-color: rgba(164, 211, 255, 0.5);
+  background-color: rgb(68, 131, 190);  
   height: 40px;
   text-align: center;
   border-radius: 4px;
@@ -84,17 +84,16 @@ a {
   display: flex;
   justify-content: space-around;
   background:rgb(164, 211, 255);
-  flex-wrap: wrap
 }
 
 .navButtons .button:hover {
   background-color: white;
-  background:rgba(0, 0, 0, 0.5);
+  background-color: rgba(164, 211, 255, 0.5);
 }
 
 footer .button:hover {
   background-color: white;
-  background:rgb(86, 109, 131);  
+  background-color: rgba(164, 211, 255, 0.5);
 }
 
 footer {
