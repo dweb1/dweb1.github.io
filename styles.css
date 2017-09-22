@@ -84,6 +84,7 @@ a {
   display: flex;
   justify-content: space-around;
   background:rgb(164, 211, 255);
+  flex-wrap: wrap
 }
 
 .navButtons .button:hover {
