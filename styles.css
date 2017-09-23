@@ -12,11 +12,15 @@ body {
 
 .aboutMe h5 {
   text-align: justify;
+  width: 66%;
+  margin: 0 auto;
+  background-color: rgba(121, 121, 121, 0.56);
 }
 
 .profilePicture {
 	height: 300px;
-  width: 300px;
+  width: auto;
+  object-fit: contain;
   padding: 0 auto;
   border: 7px solid white;
   border-radius: 500px;
@@ -28,7 +32,7 @@ header {
   color: white;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center
  }
@@ -51,10 +55,13 @@ h2 {
   text-shadow: 2px 2px 4px #000000;    
 }
 
+.name {
+  padding-left: 50px
+}
+
 h3 {
   font-family: 'Pacifico', cursive;
-  text-shadow: 2px 2px 4px #000000;
-  
+  text-shadow: 2px 2px 4px #000000;  
 }
 
 a {
@@ -97,7 +104,6 @@ footer .button:hover {
 }
 
 footer {
-  /* position: absolute; */
   right: 0;
   display: flex;
   justify-content: space-around;
@@ -113,12 +119,8 @@ footer a {
   color: white
 }
 
-  @media (max-width: 500px) {
-	h1 {
+@media (max-width: 500px) {
+  h1 {
         font-size: 36px;
-      }
-    li{
-        display: block;
-        padding: 5px;
-      }
+  }
 }
