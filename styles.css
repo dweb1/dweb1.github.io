@@ -17,6 +17,10 @@ body {
   background-color: rgba(121, 121, 121, 0.25);
 }
 
+.button p{
+  height: 100%
+} 
+
 .profilePicture {
 	height: 300px;
   width: auto;
@@ -123,5 +127,8 @@ footer a {
 @media (max-width: 500px) {
   h1 {
         font-size: 36px;
+  }
+  .navButtons {
+    visibility: hidden
   }
 }
