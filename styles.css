@@ -139,10 +139,21 @@ footer a {
   h1 {
         font-size: 36px;
   }
-  /* .navButtons {
-    visibility: hidden
-  } */
   .button p {
     font-size: 70%
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+  }
+  .button p {
+    font-size: 70%
+  }
+  .button a {
+    font-size: 60%
   }
 }
